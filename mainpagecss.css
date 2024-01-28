@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url('blue-background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#profilepic {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+button {
+    font-family: Prata;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    background-color: #842afab2;
+    padding: 10px 250px;
+    border: solid #842afab2 2px;
+    box-shadow: rgb(0, 0, 0) 0px 6px 0px 0px;
+    border-radius: 50px;
+    transition: 950ms;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+.btn_icon {
+    width: 30px;
+    margin-left: 0px;
+    margin-right: 13px;
+    flex-direction: row-reverse;
+}
+
